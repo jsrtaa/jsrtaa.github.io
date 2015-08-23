@@ -1,0 +1,15 @@
+anisotropicDiffusion
+basetypes.exceptions
+basetypes.functions
+basetypes.images
+basetypes.kernels
+basetypes.math
+basetypes.processors
+comparison
+denoising
+mathematics
+superresolution
+testing
+utilities.imageHandling
+utilities.input
+utilities.viewing

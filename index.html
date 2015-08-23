@@ -1,1 +1,129 @@
-Hello world
+<!doctype html>
+<html lang="en-us">
+
+	<!--
+		... Dont judge. It's under construction.
+	-->
+
+    <head>
+		<meta charset="utf-8" />
+        <title>Jsrtaa</title>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <link rel="stylesheet" href="style.css" />
+		<link href="http://fonts.googleapis.com/css?family=Arizonia" rel="stylesheet" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=Merienda+One" rel="stylesheet" type="text/css">
+</head>
+	
+    <body>
+	
+	<section id="home" data-type="background" data-speed="10" class="pages">     
+			 <article>
+				Jsrtaa
+			 </article>
+			 <words>
+				Jsrtaa is a Java library for image processing, focused on being a foundational library for scaling, denoising, and super-resolution.<br><br>
+				
+				Why would you want to use Jsrtaa?
+				<ul class="christsake">
+				  <li>Support development of Java-based image processing algorithms</li>
+				  <li>Free for non-commericial use, unlike many other SR applications</li>
+				  <li>Support for colour images and animated GIFs</li>
+				  <li>Has a command-line interface for scripting</li>
+				  <li>Implements some algorithms only available in the scientific literature or in other languages</li>
+				  <!--
+				  <li>Usable on all platforms</li>
+				  -->
+				  </ul>  
+				
+				Overview of current capabilities of Jsrtaa:
+				<ul class="christsake2">
+					<li>Linear convolutional filters
+						<ul>
+							<li>Gaussian & box blur</li>
+							<li>Discrete sharpening</li>
+							<li>Bicubic kernel</li>
+						</ul>
+					</li>
+					<li>Nonlinear filters
+						<ul>
+							<li>Median</li>
+							<li>Tristate median</li>
+						</ul>
+					</li>
+					<li>Interpolation
+						<ul>
+							<li>Nearest neighbour</li>
+							<li>Bilinear</li>
+							<li>Bicubic polynomial</li>
+							<li>Lanczos kernel</li>
+							<li>Bicubic Akima spline</li>
+						</ul>
+					</li>
+					<li>Denoising
+						<ul>
+							<li>Non-local Means</li>
+							<li>Whole-image singular value removal</li>
+							<li>Bilateral neighbourhood filtering</li>
+						</ul>
+					</li>
+					<li>Anisotropic diffusion
+						<ul>
+							<li>Perona-Malik non-linear anisotropic diffusion</li>
+							<li>Curvature-driven non-linear anisotropic diffusion</li>
+						</ul>
+					</li>
+					<li>Noise
+						<ul>
+							<li>Addition: Gaussian, uniform, or poisson additive noise & impulse noise</li>
+							<li>Level Estimation: Canny estimator, Gaussian noise variance, & non-parametric noise variance</li>
+						</ul>
+					</li>
+					<li>Transformation
+						<ul>
+							<li>Logarithmic normalization</li>
+							<li>Finite difference gradient, Sobel gradient, & Laplacian image</li>
+							<li>Fourier space image</li>
+							<li>Mean & Gaussian curvature</li>
+							<li>Greyscale: pixel equalization or luminance-preserving CIE1931 colorimetric conversion</li>
+						</ul>
+					</li>
+					<li>Metrics
+						<ul>
+							<li>Comparison: RMSE, PSNR, Jensen-Shannon divergence</li>
+							<li>Statistics: median absolute deviation of the gradient, information-theoretic entropy</li>
+						</ul>
+					</li>
+					<li>Super-resolution
+						<ul>
+							<li>Locally adaptive zooming (LAZA)</li>
+							<!--
+							<li>New Edge Directed Interpolation (NEDI)</li>
+							-->
+						</ul>
+					</li>
+				</ul>  
+			
+			 </words>
+	</section>   
+		
+	<div style="position:fixed;top:0;left:0;right:0;height:120px;">
+		<div id="hmenu"> 
+		<ul> 
+		  <li><a href="index.html">Home</a></li>
+		  <!--
+			<li><a href="features.html">Features</a></li> 
+		  -->
+		  <li><a href="doc/index.html">Documentation</a></li> 
+		  <li><a href="download.html">Download</a></li> 
+		  <li><a href="theory.html">Theory</a></li> 
+		  <li><a href="examples.html">Examples</a></li> 
+		  <li><a href="external.html">External</a></li> 
+		</ul>   
+		</div> 
+	</div>
+	
+	
+	</body>
+</html>
