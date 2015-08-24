@@ -47,7 +47,9 @@
 			<br>
 
 			Interpolations are the most common methods of image resizing, and bicubic interpolations are the most common of these. Essentially, the pixels are used to fit a bicubic function; then, the resized image queries the function to get the values of the pixels between the original pixels. <br><br>
+
 			A less common image interpolation, but one better for edge preservation, is to use the lanczos kernel to fit instead, which is given by:
+
 
 			$$ 
 			L_a(x,y) = L_a(x)L_a(y)
@@ -337,6 +339,7 @@
 			\right]
 		$$
 		where $C_I$ can either be the mean $\mathcal{H}$ or gaussian $G$ curvature functions on the image, $\lambda\in\mathbb{R}$, and $\Phi$ can be any of the absolute value, affine invariant (cube root), identity, or total variation diminishing ($tvd$) functions, where:
+
 		$$
 			tvd(\kappa) = \kappa/||\nabla \mathcal{I}||
 		$$
@@ -367,6 +370,7 @@
 			PSNR_k(I_1,I_2) = 20\log_{10}(\max U / RMSE_k(I_1,I_2) )
 		$$
 		where $k$ denotes the type of $\mathcal{L}_k$ metric space in which to calculate the pixel distance, 
+
 		$\mathcal{P}$ is the set of colour channels, $\max U$ is the maximum pixel value possible in the image, and $i,j$ range spatially over the image.
 		<br><br>
 		We can also compute the normalized information-theoretic difference in a metric space using the Jensen-Shannon divergence:
@@ -388,6 +392,7 @@
 		% p and q are the prob dists of I1 and I2
 		$$
 		This has the same caveat as our Shannon entropy (above).
+
 
 			<br><br>
 			<span style="text-decoration: underline;"> 
