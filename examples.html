@@ -193,8 +193,8 @@
 			<br><br>
 			
 			Now, let's look at the anisotropic diffusion methods. 
-			Note the preservation of edges as the pixels bleed everywhere as if it were diffusing ink, and how the stronger edges better stop the diffusion. Cool.
-			First, the Perona-Malik algorithm:
+			Note the preservation of edges as the pixels bleed everywhere as if it were diffusing ink, and how the stronger edges better stop the diffusion. <!-- Cool. -->
+			In particular, let's see the Perona-Malik algorithm in action:
 			<font size="3"><pre name="code" class="brush: java;">
 			 // Perona-Malik diffusion
 			 BufferedImage bi = ImageIO.read(new File(PATH + "3.jpg")); // Convert from a BufferedImage for fun
@@ -202,7 +202,7 @@
 			 ImageWrite.writeImage( // write it out a different way for fun
 				PeronaMalikAnisotropicDiffusion.runPeronaMalikAnisotropicDiffusionOnImage( 
 					imgToDiffuse, 40, 25, 0.65, PeronaMalikDiffusionConductanceType.EXP, false
-				) , // img, k, numIters, lambda, g, smoothBeforeGradient
+				) , // img, k, numIters, lambda, g, smoothBeforeGradient?
 				PATH + "diffused4.png" // output file name
 			 );
 			</pre></font>
@@ -212,7 +212,7 @@
 				<img src="eg_imgs/diffused4.png" style="width:512px;height:478px;">			
 				</center>
 			<br><br>
-				
+			<!--
 			And now the curvature-driven diffusion method, used on the classic Lena image:
 			<font size="3"><pre name="code" class="brush: java;">	
 			// Curvature-driven diffusion
@@ -233,7 +233,7 @@
 				<img src="eg_imgs/curvDiffuse2.jpg" style="width:512px;height:512px;">			
 				</center>
 			<br><br>
-			
+			-->
 			Lastly, let's look at the image distance calculators, using RMSE and Jensen-Shannon divergence.
 			Here's the images:
 			<br><br>
