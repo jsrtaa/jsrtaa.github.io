@@ -1,6 +1,11 @@
+body {
+  background: url(bg_try1_5.jpg) 50% 0 repeat fixed;
+  background-size: 30%;
+}
+
 #home { 
-  background: url(bg_try1_5.jpg) 50% 0 repeat fixed; 
-  min-height: 950px; 
+  background_: url(bg_try1_5.jpg) 50% 0 repeat fixed; 
+  min-height_: 950px; 
   height_: 1900px; <!-- 1000px; -->
   height_: 2000px;
   margin: 0 auto; 
