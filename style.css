@@ -1,8 +1,72 @@
+body {
+  background-image: url(bg_try1_5.jpg);
+  background-repeat: repeat;
+  margin: 0 auto;
+  background-size: 15%;
+}
+
+bg {
+  background-image: url(bg_try1_5.jpg);
+  background-repeat: repeat;
+  margin: 0 auto;
+  background-size: 30%;
+}
+
+.titletry { 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 40px; 
+  width: 100%; 
+  font: bold 210px/1.5 'Great Vibes',cursive;
+  color: #cc0000;
+  text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000, 3px 3px 0px rgba(0,0,0,0.4);
+}
+
+.writing2 {
+  font-size: 20%;
+  color: #cc0000;
+  text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
+    text-shadow_:
+    /* Outline 1 */
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,  
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000, 
+    /* Outline 2 */
+    -2px -2px 0 #000000,
+    2px -2px 0 #000000,
+    -2px 2px 0 #000000,
+    2px 2px 0 #000000,  
+    -3px 0 0 #000000,
+    3px 0 0 #000000,
+    0 3px 0 #000000,
+    0 -3px 0 #000000; /* Terminate with a semi-colon */
+  font: bold 32px/1.3 'Georgia',serif;
+  position: absolute; 
+  text-align: center; 
+  top: 370px; 
+  width: 100%; 
+  letter-spacing: 2px;
+  margin-top_: 80px;
+    margin-bottom_: 50px;
+    margin-right: 10px;
+    margin-left: 5px;
+    z-index_:1000;
+    opacity_:0.5;
+}
+
+
 #home { 
   background: url(bg_try1_5.jpg) 50% 0 repeat fixed; 
-  min-height_: 2200px; 
-  height: 1900px; /*<!-- 1000px; -->*/
+  min-height: 2200px; /*1000px; /*2200px;*/ 
+  height_: 1900px; /*<!-- 1000px; -->*/
   height_: 2000px;
+  height_: auto;
   margin: 0 auto; 
   width: 100%; 
   height_: 100%;
@@ -16,10 +80,19 @@
   font_: 400 600px/1.3 'Arizonia', Helvetica, sans-serif;
   font_: bold 200px/1.5 'Arizonia';
   font_: bold 220px/1.5 'Great Vibes';
-  font: bold 210px/1.5 'Great Vibes',cursive;
+  font_: bold 210px/1.5 'Great Vibes',cursive;
 background-size_: 65% 35%;
-background-size: 30%;
-       letter-spacing: 15px;
+background-size_: 30%;
+       letter-spacing_: 15px;
+}
+
+#home article { 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 40px; 
+  width: 100%; 
+  font: bold 210px/1.5 'Great Vibes',cursive;
 }
 
 ::selection {
@@ -63,7 +136,7 @@ background-size: 30%;
   font_: bold 30px/1.3 'Merienda One';
   font_: bold 30px/1.3 'Impact';
   font: bold 32px/1.3 'Georgia',serif;
-  height: 458px; 
+  height_: 458px; 
   position: absolute; 
   text-align: center; 
   top: 370px; 
@@ -112,13 +185,7 @@ h2 {
   text-shadow: 4px 4px 0px rgba(0,0,0,0.5); 
 }
  
-#home article { 
-  height: 458px; 
-  position: absolute; 
-  text-align: center; 
-  top: 40px; 
-  width: 100%; 
-}
+
  
 #about { 
   background: url(about-bg.jpg) 50% 0 repeat fixed; min-height: 1000px; 
